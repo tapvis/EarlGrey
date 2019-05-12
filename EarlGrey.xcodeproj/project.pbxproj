@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0AED4652288481D00B81A7B /* GREYSwipeWithAmountAction.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AED4632288481D00B81A7B /* GREYSwipeWithAmountAction.h */; };
+		B0AED4662288481D00B81A7B /* GREYSwipeWithAmountAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AED4642288481D00B81A7B /* GREYSwipeWithAmountAction.m */; };
 		FD1184D3212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1184D2212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.m */; };
 		FD2E76EC2149E4580063EF7E /* GREYAppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2E76EA2149E4580063EF7E /* GREYAppConfiguration.m */; };
 		FD2E76ED2149E4580063EF7E /* GREYAppConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2E76EB2149E4580063EF7E /* GREYAppConfiguration.h */; };
@@ -387,6 +389,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B0AED4632288481D00B81A7B /* GREYSwipeWithAmountAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GREYSwipeWithAmountAction.h; path = Action/GREYSwipeWithAmountAction.h; sourceTree = "<group>"; };
+		B0AED4642288481D00B81A7B /* GREYSwipeWithAmountAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GREYSwipeWithAmountAction.m; path = Action/GREYSwipeWithAmountAction.m; sourceTree = "<group>"; };
 		FD1184CB212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XCUIApplication+GREYEnvironment.h"; path = "XCTestCase/XCUIApplication+GREYEnvironment.h"; sourceTree = "<group>"; };
 		FD1184D2212CEE72004CADC3 /* XCUIApplication+GREYEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XCUIApplication+GREYEnvironment.m"; path = "XCTestCase/XCUIApplication+GREYEnvironment.m"; sourceTree = "<group>"; };
 		FD2E76EA2149E4580063EF7E /* GREYAppConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GREYAppConfiguration.m; path = Config/GREYAppConfiguration.m; sourceTree = "<group>"; };
@@ -1073,6 +1077,8 @@
 				FD623A6620F958C100049E81 /* GREYSlideAction.m */,
 				FD623A6220F958C100049E81 /* GREYSwipeAction.h */,
 				FD623A5B20F958C000049E81 /* GREYSwipeAction.m */,
+				B0AED4632288481D00B81A7B /* GREYSwipeWithAmountAction.h */,
+				B0AED4642288481D00B81A7B /* GREYSwipeWithAmountAction.m */,
 				FD623A6A20F958C200049E81 /* GREYTapAction.h */,
 				FD623A6D20F958C200049E81 /* GREYTapAction.m */,
 				FD623A6320F958C100049E81 /* GREYTapper.h */,
@@ -1456,6 +1462,7 @@
 				FD623AF520F9594200049E81 /* GREYElementInteraction.h in Headers */,
 				FD623AC620F9590800049E81 /* NSObject+GREYApp.h in Headers */,
 				FD623A7420F958C200049E81 /* GREYAction.h in Headers */,
+				B0AED4652288481D00B81A7B /* GREYSwipeWithAmountAction.h in Headers */,
 				FD623B8420F95B1500049E81 /* GREYUIThreadExecutor.h in Headers */,
 				FD623B8920F95B1500049E81 /* GREYAppStateTracker.h in Headers */,
 				FD623AD020F9590800049E81 /* UIAnimation+GREYApp.h in Headers */,
@@ -1802,6 +1809,7 @@
 				FD623B4920F95A9C00049E81 /* GREYOperationQueueIdlingResource.m in Sources */,
 				FD623B4C20F95A9C00049E81 /* GREYManagedObjectContextIdlingResource.m in Sources */,
 				FD623A7520F958C200049E81 /* GREYPathGestureUtils.m in Sources */,
+				B0AED4662288481D00B81A7B /* GREYSwipeWithAmountAction.m in Sources */,
 				FD623ACD20F9590800049E81 /* NSURLSession+GREYApp.m in Sources */,
 				FD623AD720F9590800049E81 /* NSURL+GREYApp.m in Sources */,
 				FD623ABE20F9590800049E81 /* UIWebView+GREYApp.m in Sources */,

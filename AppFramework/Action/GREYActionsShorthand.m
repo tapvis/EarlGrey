@@ -89,6 +89,16 @@ id<GREYAction> grey_swipeSlowInDirectionWithStartPoint(GREYDirection direction,
                              yOriginStartPercentage:yOriginStartPercentage];
 }
 
+GREY_EXPORT id<GREYAction> grey_swipeInDirectionWithStartPointWithAmount(GREYDirection direction,
+                                                                         CGFloat xOriginStartPercentage,
+                                                                         CGFloat yOriginStartPercentage,
+                                                                         NSUInteger amount) {
+    return [GREYActions actionForSwipeInDirection:direction
+                                       withAmount:amount
+                           xOriginStartPercentage:xOriginStartPercentage
+                           yOriginStartPercentage:yOriginStartPercentage];
+}
+
 id<GREYAction> grey_multiFingerSwipeSlowInDirection(GREYDirection direction,
                                                     NSUInteger numberOfFingers) {
   return [GREYActions actionForMultiFingerSwipeSlowInDirection:direction

@@ -92,6 +92,11 @@ GREY_EXPORT id<GREYAction> grey_swipeSlowInDirectionWithStartPoint(GREYDirection
                                                                    CGFloat xOriginStartPercentage,
                                                                    CGFloat yOriginStartPercentage);
 
+GREY_EXPORT id<GREYAction> grey_swipeInDirectionWithStartPointWithAmount(GREYDirection direction,
+                                                                         CGFloat xOriginStartPercentage,
+                                                                         CGFloat yOriginStartPercentage,
+                                                                         NSUInteger amount);
+
 /**
  *  Shorthand macro for
  *  GREYActions::actionForMultiFingerSwipeSlowInDirection:numberOfFingers:.

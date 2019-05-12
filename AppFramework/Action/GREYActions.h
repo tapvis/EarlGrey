@@ -181,6 +181,11 @@
                          xOriginStartPercentage:(CGFloat)xOriginStartPercentage
                          yOriginStartPercentage:(CGFloat)yOriginStartPercentage;
 
++ (id<GREYAction>)actionForSwipeInDirection:(GREYDirection)direction
+                                 withAmount:(NSUInteger)amount
+                     xOriginStartPercentage:(CGFloat)xOriginStartPercentage
+                     yOriginStartPercentage:(CGFloat)yOriginStartPercentage;
+
 /**
  *  Returns an action that performs a multi-finger slow swipe through the view in the given
  *  @c direction.

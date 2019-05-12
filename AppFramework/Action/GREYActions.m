@@ -28,6 +28,7 @@
 #import "AppFramework/Action/GREYScrollToContentEdgeAction.h"
 #import "AppFramework/Action/GREYSlideAction.h"
 #import "AppFramework/Action/GREYSwipeAction.h"
+#import "AppFramework/Action/GREYSwipeWithAmountAction.h"
 #import "AppFramework/Action/GREYTapAction.h"
 #import "AppFramework/Additions/NSObject+GREYApp.h"
 #import "AppFramework/Additions/UISwitch+GREYApp.h"
@@ -88,6 +89,16 @@ static Class gAccessibilityTextFieldElementClass;
       initWithDirection:direction
                duration:kGREYSwipeSlowDuration
           startPercents:CGPointMake(xOriginStartPercentage, yOriginStartPercentage)];
+}
+
++ (id<GREYAction>)actionForSwipeInDirection:(GREYDirection)direction
+                                 withAmount:(NSUInteger)amount
+                     xOriginStartPercentage:(CGFloat)xOriginStartPercentage
+                     yOriginStartPercentage:(CGFloat)yOriginStartPercentage {
+    return [[GREYSwipeWithAmountAction alloc] initWithDirection:direction
+                                                         amount:amount
+                                                  startPercents:CGPointMake(xOriginStartPercentage,
+                                                                            yOriginStartPercentage)];
 }
 
 + (id<GREYAction>)actionForMultiFingerSwipeSlowInDirection:(GREYDirection)direction
