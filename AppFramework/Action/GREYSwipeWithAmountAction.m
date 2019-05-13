@@ -3,7 +3,7 @@
 //  EarlGrey
 //
 //  Created by steven on 26.04.19.
-//  Copyright © 2019 Google Inc. All rights reserved.
+//  Copyright © 2019 Quantosparks GmbH All rights reserved.
 //
 
 #import "AppFramework/Action/GREYSwipeWithAmountAction.h"
